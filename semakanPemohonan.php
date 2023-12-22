@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Semakan Permohonan Kenaikan Jumlah Pembiayaan Pendidikan PTPTN</title>
-    <link rel="stylesheet" type="text/css" href="CSS/profil.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <header>
