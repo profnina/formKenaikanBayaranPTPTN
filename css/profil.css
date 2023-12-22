@@ -1,0 +1,162 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing:auto;
+    font-family: 'Poppins',sans-serif;
+    background-color:  #e4e9f7;
+}
+
+.error {
+    color: red;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+header {
+    background-color: #0054A4;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+
+/***navigation***/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    /*background-color: #444;*/
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+
+nav a:hover {
+    background-color: #5b5a67;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+nav a:hover::after {
+    background-color: #fff; /* Change color on hover */
+    transform: scaleX(1); /* Expand the underline on hover */
+}
+
+nav a:hover {
+    cursor: pointer; /* Change cursor on hover to indicate clickability */
+}
+
+#main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+#main-content img {
+    width: 200px; 
+    height: auto; 
+    margin: 0 10px; 
+}
+
+#headsec{
+    background-color: #0054A4;
+    color: white;
+    padding: 5px;
+}
+
+#headsec h3, #headsec p {
+    display: inline; 
+    margin: 3px;
+}
+
+/* Form fields and data */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.centered-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.centered-images img {
+    margin: 0 10px; /* Optional: Adjust margins between images */
+    max-width: 100%;
+    height: 100px;
+}
+
+button{
+    background-color: #575381;
+    color: white;
+    padding: 5px;
+}
+
+.form-data p {
+    margin: 5px 0;
+}
+
+#signatureCanvas {
+    border: 1px solid #000;
+  }
+
+/***footer***/
+footer {
+    color: grey;
+    padding: 20px;
+    text-align: center;
+}
+
